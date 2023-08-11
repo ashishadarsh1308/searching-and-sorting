@@ -24,7 +24,6 @@ void merge(int arr[], int l, int m, int r)
         arr[p] = temp[p - l];
 }
 
-
 void mergeSort(int arr[], int l, int r)
 {
     if (l < r)
